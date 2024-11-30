@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pestaña Web</title>
+    <style>
+        body {
+            background-color: rgb(42, 56, 61);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 25%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgb(60, 70, 75);
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(90, 110, 120);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagina echa por Iram Said Gomez Rubio</h1>
+        <p>Este es mi sitio web personal.</p>
+        <div class="image-container">
+            <img src="file:///C:\Users\gomez\Taller_HTML\HTML5\recursos\F2ZGSUYXoAE416_.jpeg" alt="Mi imagen personal">
+        </div>
+    </div>
+
+    <!-- Nueva sección -->
+    <section>
+        <h2>Acerca de mí</h2>
+        <p>Hola Soy un alumno de 5 semestre, este es mi actividad de Moodle de mi clase de Metodos Numericos</p>
+    </section>
+
+    <!-- Nueva lista ordenada -->
+    <section>
+        <h3>Mis habilidades</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </section>
+
+    <!-- Nueva tabla -->
+    <section>
+        <h3>Proyectos recientes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Taller</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Taller HTML</td>
+                    <td>Creacion de este programa usando HTML.</td>
+                    <td>Noviembre 15 2024</td>
+                </tr>
+                <tr>
+                    <td>Taller de trello</td>
+                    <td>Uso de trello para crear listas de trabajo.</td>
+                    <td>Noviembre 16 2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
